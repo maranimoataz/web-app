@@ -1,0 +1,31 @@
+.navbar-collapse{
+	background-color: #4169E1;
+}
+.dropdown-show{
+	background-color: #4169E1;
+}
+.photo{
+	width: 15%;
+	height:15%;
+}
+.color{
+	text-decoration-color: #000000;
+}
+.image{
+	width:50%;
+}
+.login{
+	width:0%;
+}
+.home{
+	width: 5vh;
+	height:5vh;
+}
+.place1{
+	width: 5vh;
+	height:5vh;
+}
+.support{
+	width: 5vh;
+	height:5vh;
+}

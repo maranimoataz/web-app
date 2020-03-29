@@ -1,0 +1,105 @@
+.wrapper{
+	height:100vh;
+	width:100x;
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	background: #7a96ea;
+	text-align: center;
+}
+
+
+.form-wrapper {
+	width :400px;
+	height: 100%;
+	display :flex;
+	flex-direction:column;
+	padding:20px 40px;
+	border-radius:10px;
+	box-shadow:0px 10px 50px #555;
+	background-color :#ffffff;
+}
+.format{
+	width:100%;
+	height: 100%;
+}
+.alert{
+	width:100%;
+	height:50%;
+}
+.form{
+	width:100%;
+	display :flex;
+	flex-wrap: wrap;
+}
+
+.h1{
+	text-align: center;
+	width:100%;
+	color: #111;
+	font-weight: lighter;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI" , Roboto, Oxygen, Ubunto, Cantarell, "Open Sans", "Helvetica neue", sans-serif;
+}
+
+.input{
+	padding:10px 10px;
+	border-radius:5px;
+	ouline:none;
+	border:1px solid #cfcfcf;
+	width : 200px;
+}
+
+.input::placeholder{
+	font-size: 1.2em;
+	font-weight: lighter;
+	color: #999;
+}
+
+.input.error{
+	border: 1px solid red;
+}
+
+.errorMessage{
+	color: red;
+	font-size : 0.75em;
+	display: relative;
+}
+
+.label{
+	font-size:0.8em;
+	margin-bottom:0.25em;
+	color:#222;
+	font-weight:lighter;
+}
+
+.Nom,
+.Prenom,
+.Etablissement,
+.Filiere,
+.adresse_mail,
+.adresse_local,
+
+{
+	display:flex;
+	flex-direction:column;
+	margin-bottom:15px;
+}
+
+.Nom
+.Prenom{
+	width:49%;
+}
+
+.Etablissement,
+.Filiere,
+.adresse_mail,
+.adresse_local,
+{
+	width:100%
+}
+
+lettre_formelle{
+	width: 300px;
+    height: 10em;
+}
